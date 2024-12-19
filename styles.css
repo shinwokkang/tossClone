@@ -1,0 +1,108 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 세로 중앙 정렬 */
+    padding: 5px 10px;
+    background: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin: 0 auto;
+    width: 92%;
+}
+
+
+.top_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px; /* 로고 크기 설정 */
+    height: auto;
+    min-width: 24px;
+    object-fit: contain;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    size: 20px;
+}
+
+/*
+.menu {
+    padding: 0 8px;
+    color: #425968;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+*/
+
+.menu li {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.language{
+    margin-left: 150px;
+}
+
+/* main 영역 스타일 */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 가로축 중앙 정렬 */
+    justify-content: center; /* 세로축 중앙 정렬 */
+    text-align: center; /* 글자 중앙 정렬 */
+    height: 100vh; /* 화면 전체 높이 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* h1 스타일 */
+.hero h1 {
+    font-size: 3rem; /* 글자 크기 조정 */
+    font-weight: bold;
+    line-height: 1.3; /* 줄 간격 */
+    color: #333;
+    margin-bottom: 30px; /* 아래 여백 */
+}
+
+/* app-buttons 스타일 */
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 버튼 간격 */
+    margin-bottom: 40px; /* 아래 여백 */
+}
+
+.app-buttons img {
+    width: 150px; /* 버튼 이미지 크기 */
+    height: 40px;
+    object-fit: contain;
+    border-radius: 12px;
+    background-color: #293340;
+    transition: transform 0.3s ease; /* 부드러운 효과 */
+}
+
+
+.app-buttons img:hover {
+    transform: scale(1.05); /* 마우스 호버 시 확대 */
+}
+
+
