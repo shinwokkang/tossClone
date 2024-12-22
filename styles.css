@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: silver;
+    background: url(back_image.png) no-repeat center;
+    background-size: cover;
 }
 
 header {
@@ -107,11 +109,16 @@ header {
 }
 
 .hero h1 {
-    font-size: 3rem; 
-    font-weight: bold;
+    font-size: 4rem; 
+    font-weight: 900;
     line-height: 1.3; 
     color: #333;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    letter-spacing: 0px;
+    line-height: 1.4;
+    word-spacing: 0px;
+
 }
 
 
