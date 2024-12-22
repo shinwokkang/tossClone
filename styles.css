@@ -39,23 +39,35 @@ header {
     justify-content: flex-end;
     gap: 20px;
     size: 20px;
+    padding: 0px 8px;
 }
 
-/*
-.menu {
-    padding: 0 8px;
-    color: #425968;
-    height: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
+.menu li{
+    padding: 12px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
 }
-*/
+
+.menu a:link{
+    color: #4e5968;
+    text-decoration: none;
+}
+
+.menu li:hover,
+.language span:hover{
+    background-color: #f0f0f0;
+    padding: 2px 3px;
+    margin: 0;
+    border-radius: 6px;
+}
 
 .menu li {
     display: inline-block;
     cursor: pointer;
     font-weight: bold;
+    font-size: 15px;
+    color: #4e5968;
 }
 
 .language{
